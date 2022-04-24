@@ -7,8 +7,8 @@ const HomePage: NextPage = () => {
   return (
     <div>
       <Layout title='home'>
-      <Typography variant='h1'>Hola mundo</Typography>
-    </Layout>
+        <Typography variant='h1'>Hola mundo</Typography>
+      </Layout>
     </div>
     
   )
