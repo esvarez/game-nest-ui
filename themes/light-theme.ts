@@ -13,10 +13,14 @@ export const lightTheme = createTheme({
     secondary: {
       main: '#64748B',
     },
+    info: {
+      main: '#F8FAFC',
+    },
     error: {
       main: '#f44336',
     }
   },
+  
   components: {
     MuiAppBar: {
       defaultProps: {
