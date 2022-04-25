@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { Box } from '@mui/material'
 
 import { Navbar } from '../ui'
+import { HeroRegister } from '../ui/HeroRegister'
 
 interface Props {
   title?: string

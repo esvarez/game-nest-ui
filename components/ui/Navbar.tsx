@@ -24,9 +24,8 @@ const pages = ['Inicio', 'El nido', 'Foro'];
 export const Navbar = () => {
   const { openSideMenu, closeSideMenu, sideMenuOpen } = useContext( UIContext )
 
-
   return (
-    <AppBar position='sticky'>
+    <AppBar position='sticky' color='transparent' >
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
 
@@ -53,7 +52,7 @@ export const Navbar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0, gap: '8px', display: { xs: 'flex'} }}>
-            <Button variant='text' color='info'>Entrar</Button>
+            <Button variant='text' color='info' sx={{ display: {xs: 'none', md: 'flex'} }}>Entrar</Button>
             <Button variant='outlined' color='info'>Registrarse</Button>
           </Box>
 
